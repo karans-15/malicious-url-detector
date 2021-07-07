@@ -22,7 +22,7 @@ For a new url, we need to extract the parameters first as per the instructions g
 On going through the data set, I found that the data was balanced (around 55:45%). Hence, we consider **Accuracy** as our main metric. We will also have to ensure that we will have a minimal **Type one** error (Minimize false positives)(**FPR**). This is because it is important that the user does not enter an unsafe url. We can tradeoff classifying a safe url as unsafe but not the other way around.
 
 ## Results
-On evaluating these metrics, we found that Random Forests and SVMs gave the highest accuracies and the least false positives. Out of the two, Random Forests showed the best performance with 93.33% Accuracy and 4.08% FPR on the training data and 93.94% Accuracy and 7.96% FPR on the test data
+On evaluating these metrics, we found that Random Forests and SVMs gave the highest accuracies and the least false positives. Out of the two, Random Forests showed the best performance with 96.33% Accuracy and 4.08% FPR on the training data and 93.94% Accuracy and 7.96% FPR on the test data
 
 ## The Website: 
 - Website link: https://maliciousurlchecker.herokuapp.com/
