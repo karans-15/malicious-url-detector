@@ -24,6 +24,17 @@ On going through the data set, I found that the data was balanced (around 55:45%
 ## Results
 On evaluating these metrics, we found that Random Forests and SVMs gave the highest accuracies and the least false positives. Out of the two, Random Forests showed the best performance with 93.33% Accuracy and 4.08% FPR on the training data and 93.94% Accuracy and 7.96% FPR on the test data
 
-## Further Scope
+## The Website: 
+- The website has been created using Flask and runs currently on localhost.
+- To launch the project, obtain necessary keys from owners of this repository/ generate and use new API keys.
+- Run python app.py (Python Version: 3.8)
+- Launch website on http://127.0.0.1:5000/ (default)
+
+![screenshot](static/ss1.png)
+![screenshot](static/ss2.png)
+
+## Further Scope  
 We missed out on a few metrics due to current unavailability of API keys for the phishtank API. This will help our model make a better prediction.
 This model is currrently deployed on a website locally. We could deploy this model as a Chrome extention, hence as soon as someone enters a malicious URL, the pop-up could stop tthe user from entering the website.
+
+
