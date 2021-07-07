@@ -57,7 +57,6 @@ pyrsistent==0.17.3
 python-dateutil==2.8.1
 python-whois==0.7.3
 pytz==2021.1
-pywin32
 pywinpty==0.5.7
 pyzmq==22.0.3
 requests==2.25.1
