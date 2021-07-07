@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+    <div class="login">
+        <h1>Predict Phishing URL</h1>
+
+        <!-- Main Input For Receiving Query to our ML -->
+        <form action="{{ url_for('home')}}" method="post">
+            <input type="text" name="url" placeholder="Please enter url" required="required" />
+        
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+
+        <br>
+        <br>
+        {%if prediction_text == 1 %}
+        <h2>Website looks SAFE!</h2>
+        <img src="static/safe.png" alt="safe">
+        {%endif%}
+        {%if prediction_text == 2 %}
+        <h2>DANGER!! This appears to be a phishing website</h2>
+        <img src="static/danger.png" alt="danger">
+        {%endif%}
+        {%if prediction_text == 0 %}
+        <h2>Proceed with CAUTION, this seems Suspicious</h2>
+        <img src="static/caution.png" alt="caution">
+        {%endif%}
+
+    </div>
+
+
+</body>
+
+</html>
