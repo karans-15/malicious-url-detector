@@ -27,6 +27,9 @@ On evaluating these metrics, we found that Random Forests and SVMs gave the high
 ## The Website: 
 - Website link: https://maliciousurlchecker.herokuapp.com/
 - The website has been created using Flask and deployed on heroku
+- The website can run on localhost.
+- To launch the project, obtain necessary keys from owners of this repository/ generate and use new API keys.
+- Run python app.py (Python Version: 3.8)
 
 ![screenshot](static/ss1.png)
 ![screenshot](static/ss2.png)
