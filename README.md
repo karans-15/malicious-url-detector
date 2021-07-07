@@ -25,6 +25,7 @@ On going through the data set, I found that the data was balanced (around 55:45%
 On evaluating these metrics, we found that Random Forests and SVMs gave the highest accuracies and the least false positives. Out of the two, Random Forests showed the best performance with 93.33% Accuracy and 4.08% FPR on the training data and 93.94% Accuracy and 7.96% FPR on the test data
 
 ## The Website: 
+- Website link: https://maliciousurlchecker.herokuapp.com/
 - The website has been created using Flask and runs currently on localhost.
 - To launch the project, obtain necessary keys from owners of this repository/ generate and use new API keys.
 - Run python app.py (Python Version: 3.8)
