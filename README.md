@@ -13,7 +13,7 @@ In this project I have created a Machine Learning Model that predicts whether or
 - Support Vector Machine
 
 ## Dataset Link:
-https://archive.ics.uci.edu/ml/datasets/Phishing+Websites#
+https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
 
 For a new url, we need to extract the parameters first as per the instructions given along with the dataset.
 
